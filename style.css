@@ -31,6 +31,18 @@ p {
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.section-title span {
+  color: crimson;
+}
 /* Hero Section */
 #hero {
   background-image: url(./images/rsz_20191204_162325.png);
@@ -123,26 +135,7 @@ p {
   margin: 0 auto;
   padding: 100px 0;
 }
-#services .section-title {
-  font-size: 4rem;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-#services .section-title span {
-  color: crimson;
-}
-#services .service-top p {
-  color: black;
-  font-size: 1.4rem;
-  margin-top: 5px;
-  line-height: 2.5rem;
-  font-weight: 300;
-  letter-spacing: 0.05rem;
-}
+
 #services .service-bottom {
   display: flex;
   align-items: center;
